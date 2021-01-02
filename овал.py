@@ -8,7 +8,7 @@ from PyQt5.QtWidgets import QApplication, QMainWindow
 class Example(QMainWindow):
     def __init__(self):
         super().__init__()
-        uic.loadUi('main12.ui', self)
+        uic.loadUi('UI.ui', self)
         self.initUI()
 
     def initUI(self):
